@@ -12,7 +12,7 @@ def verifyTitle(context):
 @then('Verify the title two')
 def verifyTitle(context):
     assert context.driver.title == "OrangeHRM"
-    context.driver.save_screenshot('screenshot.png')
+    # context.driver.save_screenshot('screenshot.png')
 
 
 @when('I enter "Admin" in username field')

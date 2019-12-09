@@ -14,12 +14,28 @@ https://docs.qameta.io/allure/
 
 install allure-behave library :: pip install allure-behave
 
-Command to run tests(Generates xml reports) :: behave -t Regression features/LoginFeature.feature -f allure_behave.formatter:AllureFormatter -o ./reports
+Command to run tests(Generates xml reports) ::
 
-Run below command to generate Allure html reports :: allure serve ./reports
+behave -t Regression features/LoginFeature.feature -f allure_behave.formatter:AllureFormatter -o ./Reports
+
+Run below command to generate Allure html reports :: allure serve ./allure-report
 
 
 allure serve E:\Workspace\PyCharm\PyTest_BDD_POM\reports
+
+
+GITHUB or Bitbucket ::
+
+
+
+batchfiles/libs.bat
+
+
+
+
+
+
+
 
 
 
